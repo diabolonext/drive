@@ -108,7 +108,7 @@ def ping():
 def keep_alive():
     while True:
         try:
-            requests.get('https://your-app.onrender.com/ping')
+            requests.get('https://drive-0pjb.onrender.com')
         except:
             pass
         time.sleep(300)  # 每 10 分鐘 ping 一次
@@ -116,3 +116,4 @@ def keep_alive():
 
 if __name__ == '__main__':
     app.run(debug=True)
+
